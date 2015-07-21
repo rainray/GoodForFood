@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		185DCF891B5DF1C600FF269D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCF881B5DF1C600FF269D /* main.m */; };
 		185DCF941B5DF1C600FF269D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185DCF931B5DF1C600FF269D /* Images.xcassets */; };
 		185DCF971B5DF1C600FF269D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185DCF951B5DF1C600FF269D /* LaunchScreen.xib */; };
 		185DCFA31B5DF1C600FF269D /* GoodForFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFA21B5DF1C600FF269D /* GoodForFoodTests.m */; };
 		185DCFC91B5DF6EE00FF269D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFC71B5DF6EE00FF269D /* AppDelegate.m */; };
 		185DCFCA1B5DF6EE00FF269D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFC81B5DF6EE00FF269D /* main.m */; };
+		185DCFD21B5DF92500FF269D /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFCD1B5DF92500FF269D /* NSObject+Model.m */; };
+		185DCFD31B5DF92500FF269D /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFCF1B5DF92500FF269D /* UIImage+image.m */; };
+		185DCFD41B5DF92500FF269D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFD11B5DF92500FF269D /* UIView+Frame.m */; };
+		185DCFD81B5DFB7F00FF269D /* ZLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFD71B5DFB7E00FF269D /* ZLMainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		185DCF831B5DF1C600FF269D /* GoodForFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodForFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DCF871B5DF1C600FF269D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		185DCF881B5DF1C600FF269D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185DCF931B5DF1C600FF269D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		185DCF961B5DF1C600FF269D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		185DCF9C1B5DF1C600FF269D /* GoodForFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodForFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +39,15 @@
 		185DCFC61B5DF6EE00FF269D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185DCFC71B5DF6EE00FF269D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		185DCFC81B5DF6EE00FF269D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185DCFCC1B5DF92500FF269D /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		185DCFCD1B5DF92500FF269D /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		185DCFCE1B5DF92500FF269D /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		185DCFCF1B5DF92500FF269D /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		185DCFD01B5DF92500FF269D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		185DCFD11B5DF92500FF269D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		185DCFD61B5DFB7E00FF269D /* ZLMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMainController.h; sourceTree = "<group>"; };
+		185DCFD71B5DFB7E00FF269D /* ZLMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMainController.m; sourceTree = "<group>"; };
+		185DCFD91B5DFDFE00FF269D /* ZLPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPrefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				185DCF871B5DF1C600FF269D /* Info.plist */,
-				185DCF881B5DF1C600FF269D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,6 +211,8 @@
 		185DCFB61B5DF6EE00FF269D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				185DCFD61B5DFB7E00FF269D /* ZLMainController.h */,
+				185DCFD71B5DFB7E00FF269D /* ZLMainController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,11 +327,26 @@
 		185DCFC51B5DF6EE00FF269D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				185DCFD91B5DFDFE00FF269D /* ZLPrefix.pch */,
+				185DCFCB1B5DF92500FF269D /* Categoty */,
 				185DCFC61B5DF6EE00FF269D /* AppDelegate.h */,
 				185DCFC71B5DF6EE00FF269D /* AppDelegate.m */,
 				185DCFC81B5DF6EE00FF269D /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		185DCFCB1B5DF92500FF269D /* Categoty */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFCC1B5DF92500FF269D /* NSObject+Model.h */,
+				185DCFCD1B5DF92500FF269D /* NSObject+Model.m */,
+				185DCFCE1B5DF92500FF269D /* UIImage+image.h */,
+				185DCFCF1B5DF92500FF269D /* UIImage+image.m */,
+				185DCFD01B5DF92500FF269D /* UIView+Frame.h */,
+				185DCFD11B5DF92500FF269D /* UIView+Frame.m */,
+			);
+			path = Categoty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,9 +448,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185DCFD41B5DF92500FF269D /* UIView+Frame.m in Sources */,
 				185DCFC91B5DF6EE00FF269D /* AppDelegate.m in Sources */,
+				185DCFD81B5DFB7F00FF269D /* ZLMainController.m in Sources */,
 				185DCFCA1B5DF6EE00FF269D /* main.m in Sources */,
-				185DCF891B5DF1C600FF269D /* main.m in Sources */,
+				185DCFD31B5DF92500FF269D /* UIImage+image.m in Sources */,
+				185DCFD21B5DF92500FF269D /* NSObject+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +569,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GoodForFood/Class/Other/ZLPrefix.pch;
 				INFOPLIST_FILE = GoodForFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,6 +581,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GoodForFood/Class/Other/ZLPrefix.pch;
 				INFOPLIST_FILE = GoodForFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

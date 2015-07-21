@@ -1,0 +1,23 @@
+//
+//  ZLPrefix.pch
+//  01－彩票
+//
+//  Created by apple on 15/6/28.
+//  Copyright (c) 2015年 apple. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "UIView+Frame.h"
+#import "UIImage+image.h"
+#import "NSObject+Model.h"
+
+#define ZLWindowBounds [UIScreen mainScreen].bounds
+#define ZLWindowH [UIScreen mainScreen].bounds.size.height
+#define ZLWindowW [UIScreen mainScreen].bounds.size.width
+
+#define UIColor(r, g, b) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1.0]
+
+#define ZLKeyWindow  [UIApplication sharedApplication].keyWindow
+
+#endif

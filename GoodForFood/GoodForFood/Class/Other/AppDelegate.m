@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZLMainController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ZLMainController *mainVc = [[ZLMainController alloc] init];
+    
+    mainVc.view.backgroundColor = [UIColor redColor];
+    self.window.rootViewController = mainVc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
