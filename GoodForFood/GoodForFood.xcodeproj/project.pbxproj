@@ -16,6 +16,16 @@
 		185DCFD31B5DF92500FF269D /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFCF1B5DF92500FF269D /* UIImage+image.m */; };
 		185DCFD41B5DF92500FF269D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFD11B5DF92500FF269D /* UIView+Frame.m */; };
 		185DCFD81B5DFB7F00FF269D /* ZLMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFD71B5DFB7E00FF269D /* ZLMainController.m */; };
+		185DCFDC1B5E215C00FF269D /* ZLMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFDB1B5E215C00FF269D /* ZLMainPageViewController.m */; };
+		185DCFDF1B5E251800FF269D /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFDE1B5E251800FF269D /* ZLNavigationController.m */; };
+		185DD0211B5E2A9600FF269D /* ZLMyDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DD01F1B5E2A9600FF269D /* ZLMyDetailController.m */; };
+		185DD0221B5E2A9600FF269D /* ZLMyDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185DD0201B5E2A9600FF269D /* ZLMyDetailController.xib */; };
+		185DD0251B5E2AD200FF269D /* ZLFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DD0241B5E2AD200FF269D /* ZLFoodViewController.m */; };
+		185DD0281B5E2AF400FF269D /* ZLDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DD0271B5E2AF400FF269D /* ZLDiscoveryViewController.m */; };
+		185DD02C1B5E2B9100FF269D /* ZLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DD02A1B5E2B9100FF269D /* ZLMessageViewController.m */; };
+		185DD02D1B5E2B9100FF269D /* ZLMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185DD02B1B5E2B9100FF269D /* ZLMessageViewController.xib */; };
+		185DD0301B5E2DDC00FF269D /* ZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DD02F1B5E2DDC00FF269D /* ZLTabBar.m */; };
+		185DD0391B5E31A400FF269D /* ZLTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DD0381B5E31A400FF269D /* ZLTabBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,24 @@
 		185DCFD61B5DFB7E00FF269D /* ZLMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMainController.h; sourceTree = "<group>"; };
 		185DCFD71B5DFB7E00FF269D /* ZLMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMainController.m; sourceTree = "<group>"; };
 		185DCFD91B5DFDFE00FF269D /* ZLPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPrefix.pch; sourceTree = "<group>"; };
+		185DCFDA1B5E215C00FF269D /* ZLMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMainPageViewController.h; sourceTree = "<group>"; };
+		185DCFDB1B5E215C00FF269D /* ZLMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMainPageViewController.m; sourceTree = "<group>"; };
+		185DCFDD1B5E251800FF269D /* ZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNavigationController.h; sourceTree = "<group>"; };
+		185DCFDE1B5E251800FF269D /* ZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLNavigationController.m; sourceTree = "<group>"; };
+		185DD01E1B5E2A9600FF269D /* ZLMyDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMyDetailController.h; sourceTree = "<group>"; };
+		185DD01F1B5E2A9600FF269D /* ZLMyDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMyDetailController.m; sourceTree = "<group>"; };
+		185DD0201B5E2A9600FF269D /* ZLMyDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLMyDetailController.xib; sourceTree = "<group>"; };
+		185DD0231B5E2AD200FF269D /* ZLFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFoodViewController.h; sourceTree = "<group>"; };
+		185DD0241B5E2AD200FF269D /* ZLFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFoodViewController.m; sourceTree = "<group>"; };
+		185DD0261B5E2AF400FF269D /* ZLDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLDiscoveryViewController.h; sourceTree = "<group>"; };
+		185DD0271B5E2AF400FF269D /* ZLDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLDiscoveryViewController.m; sourceTree = "<group>"; };
+		185DD0291B5E2B9100FF269D /* ZLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMessageViewController.h; sourceTree = "<group>"; };
+		185DD02A1B5E2B9100FF269D /* ZLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMessageViewController.m; sourceTree = "<group>"; };
+		185DD02B1B5E2B9100FF269D /* ZLMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLMessageViewController.xib; sourceTree = "<group>"; };
+		185DD02E1B5E2DDC00FF269D /* ZLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBar.h; sourceTree = "<group>"; };
+		185DD02F1B5E2DDC00FF269D /* ZLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBar.m; sourceTree = "<group>"; };
+		185DD0371B5E31A400FF269D /* ZLTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabBarButton.h; sourceTree = "<group>"; };
+		185DD0381B5E31A400FF269D /* ZLTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +177,8 @@
 		185DCFAE1B5DF6EE00FF269D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				185DD0261B5E2AF400FF269D /* ZLDiscoveryViewController.h */,
+				185DD0271B5E2AF400FF269D /* ZLDiscoveryViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +210,8 @@
 		185DCFB21B5DF6EE00FF269D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				185DD0231B5E2AD200FF269D /* ZLFoodViewController.h */,
+				185DD0241B5E2AD200FF269D /* ZLFoodViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +245,8 @@
 			children = (
 				185DCFD61B5DFB7E00FF269D /* ZLMainController.h */,
 				185DCFD71B5DFB7E00FF269D /* ZLMainController.m */,
+				185DCFDD1B5E251800FF269D /* ZLNavigationController.h */,
+				185DCFDE1B5E251800FF269D /* ZLNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -227,6 +261,10 @@
 		185DCFB81B5DF6EE00FF269D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				185DD02E1B5E2DDC00FF269D /* ZLTabBar.h */,
+				185DD02F1B5E2DDC00FF269D /* ZLTabBar.m */,
+				185DD0371B5E31A400FF269D /* ZLTabBarButton.h */,
+				185DD0381B5E31A400FF269D /* ZLTabBarButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +282,8 @@
 		185DCFBA1B5DF6EE00FF269D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				185DCFDA1B5E215C00FF269D /* ZLMainPageViewController.h */,
+				185DCFDB1B5E215C00FF269D /* ZLMainPageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,6 +315,9 @@
 		185DCFBE1B5DF6EE00FF269D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				185DD01E1B5E2A9600FF269D /* ZLMyDetailController.h */,
+				185DD01F1B5E2A9600FF269D /* ZLMyDetailController.m */,
+				185DD0201B5E2A9600FF269D /* ZLMyDetailController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,6 +349,9 @@
 		185DCFC21B5DF6EE00FF269D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				185DD0291B5E2B9100FF269D /* ZLMessageViewController.h */,
+				185DD02A1B5E2B9100FF269D /* ZLMessageViewController.m */,
+				185DD02B1B5E2B9100FF269D /* ZLMessageViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -393,6 +439,7 @@
 		185DCF7B1B5DF1C600FF269D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZL;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
@@ -430,6 +477,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				185DCF971B5DF1C600FF269D /* LaunchScreen.xib in Resources */,
+				185DD0221B5E2A9600FF269D /* ZLMyDetailController.xib in Resources */,
+				185DD02D1B5E2B9100FF269D /* ZLMessageViewController.xib in Resources */,
 				185DCF941B5DF1C600FF269D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,9 +498,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				185DCFD41B5DF92500FF269D /* UIView+Frame.m in Sources */,
+				185DD0391B5E31A400FF269D /* ZLTabBarButton.m in Sources */,
 				185DCFC91B5DF6EE00FF269D /* AppDelegate.m in Sources */,
+				185DD0281B5E2AF400FF269D /* ZLDiscoveryViewController.m in Sources */,
+				185DD0301B5E2DDC00FF269D /* ZLTabBar.m in Sources */,
+				185DD0251B5E2AD200FF269D /* ZLFoodViewController.m in Sources */,
 				185DCFD81B5DFB7F00FF269D /* ZLMainController.m in Sources */,
+				185DD0211B5E2A9600FF269D /* ZLMyDetailController.m in Sources */,
+				185DD02C1B5E2B9100FF269D /* ZLMessageViewController.m in Sources */,
 				185DCFCA1B5DF6EE00FF269D /* main.m in Sources */,
+				185DCFDC1B5E215C00FF269D /* ZLMainPageViewController.m in Sources */,
+				185DCFDF1B5E251800FF269D /* ZLNavigationController.m in Sources */,
 				185DCFD31B5DF92500FF269D /* UIImage+image.m in Sources */,
 				185DCFD21B5DF92500FF269D /* NSObject+Model.m in Sources */,
 			);
