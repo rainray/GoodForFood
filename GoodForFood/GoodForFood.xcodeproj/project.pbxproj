@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		185DCF891B5DF1C600FF269D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCF881B5DF1C600FF269D /* main.m */; };
-		185DCF8C1B5DF1C600FF269D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCF8B1B5DF1C600FF269D /* AppDelegate.m */; };
-		185DCF8F1B5DF1C600FF269D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCF8E1B5DF1C600FF269D /* ViewController.m */; };
-		185DCF921B5DF1C600FF269D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DCF901B5DF1C600FF269D /* Main.storyboard */; };
 		185DCF941B5DF1C600FF269D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185DCF931B5DF1C600FF269D /* Images.xcassets */; };
 		185DCF971B5DF1C600FF269D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185DCF951B5DF1C600FF269D /* LaunchScreen.xib */; };
 		185DCFA31B5DF1C600FF269D /* GoodForFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFA21B5DF1C600FF269D /* GoodForFoodTests.m */; };
+		185DCFC91B5DF6EE00FF269D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFC71B5DF6EE00FF269D /* AppDelegate.m */; };
+		185DCFCA1B5DF6EE00FF269D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DCFC81B5DF6EE00FF269D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +29,14 @@
 		185DCF831B5DF1C600FF269D /* GoodForFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodForFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DCF871B5DF1C600FF269D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185DCF881B5DF1C600FF269D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		185DCF8A1B5DF1C600FF269D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		185DCF8B1B5DF1C600FF269D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		185DCF8D1B5DF1C600FF269D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		185DCF8E1B5DF1C600FF269D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		185DCF911B5DF1C600FF269D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185DCF931B5DF1C600FF269D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		185DCF961B5DF1C600FF269D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		185DCF9C1B5DF1C600FF269D /* GoodForFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodForFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DCFA11B5DF1C600FF269D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185DCFA21B5DF1C600FF269D /* GoodForFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodForFoodTests.m; sourceTree = "<group>"; };
+		185DCFC61B5DF6EE00FF269D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185DCFC71B5DF6EE00FF269D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185DCFC81B5DF6EE00FF269D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +78,7 @@
 		185DCF851B5DF1C600FF269D /* GoodForFood */ = {
 			isa = PBXGroup;
 			children = (
-				185DCF8A1B5DF1C600FF269D /* AppDelegate.h */,
-				185DCF8B1B5DF1C600FF269D /* AppDelegate.m */,
-				185DCF8D1B5DF1C600FF269D /* ViewController.h */,
-				185DCF8E1B5DF1C600FF269D /* ViewController.m */,
-				185DCF901B5DF1C600FF269D /* Main.storyboard */,
+				185DCFAC1B5DF6EE00FF269D /* Class */,
 				185DCF931B5DF1C600FF269D /* Images.xcassets */,
 				185DCF951B5DF1C600FF269D /* LaunchScreen.xib */,
 				185DCF861B5DF1C600FF269D /* Supporting Files */,
@@ -117,6 +110,216 @@
 				185DCFA11B5DF1C600FF269D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185DCFAC1B5DF6EE00FF269D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFAD1B5DF6EE00FF269D /* Discovery(发现) */,
+				185DCFB11B5DF6EE00FF269D /* Food(料理) */,
+				185DCFB51B5DF6EE00FF269D /* Main(主要) */,
+				185DCFB91B5DF6EE00FF269D /* MainPage(首页) */,
+				185DCFBD1B5DF6EE00FF269D /* Me(我的) */,
+				185DCFC11B5DF6EE00FF269D /* Message(消息) */,
+				185DCFC51B5DF6EE00FF269D /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		185DCFAD1B5DF6EE00FF269D /* Discovery(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFAE1B5DF6EE00FF269D /* Controller */,
+				185DCFAF1B5DF6EE00FF269D /* Model */,
+				185DCFB01B5DF6EE00FF269D /* View */,
+			);
+			path = "Discovery(发现)";
+			sourceTree = "<group>";
+		};
+		185DCFAE1B5DF6EE00FF269D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185DCFAF1B5DF6EE00FF269D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCFB01B5DF6EE00FF269D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCFB11B5DF6EE00FF269D /* Food(料理) */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFB21B5DF6EE00FF269D /* Controller */,
+				185DCFB31B5DF6EE00FF269D /* Model */,
+				185DCFB41B5DF6EE00FF269D /* View */,
+			);
+			path = "Food(料理)";
+			sourceTree = "<group>";
+		};
+		185DCFB21B5DF6EE00FF269D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185DCFB31B5DF6EE00FF269D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCFB41B5DF6EE00FF269D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCFB51B5DF6EE00FF269D /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFB61B5DF6EE00FF269D /* Controller */,
+				185DCFB71B5DF6EE00FF269D /* Model */,
+				185DCFB81B5DF6EE00FF269D /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		185DCFB61B5DF6EE00FF269D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185DCFB71B5DF6EE00FF269D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCFB81B5DF6EE00FF269D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCFB91B5DF6EE00FF269D /* MainPage(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFBA1B5DF6EE00FF269D /* Controller */,
+				185DCFBB1B5DF6EE00FF269D /* Model */,
+				185DCFBC1B5DF6EE00FF269D /* View */,
+			);
+			path = "MainPage(首页)";
+			sourceTree = "<group>";
+		};
+		185DCFBA1B5DF6EE00FF269D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185DCFBB1B5DF6EE00FF269D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCFBC1B5DF6EE00FF269D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCFBD1B5DF6EE00FF269D /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFBE1B5DF6EE00FF269D /* Controller */,
+				185DCFBF1B5DF6EE00FF269D /* Model */,
+				185DCFC01B5DF6EE00FF269D /* View */,
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		185DCFBE1B5DF6EE00FF269D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185DCFBF1B5DF6EE00FF269D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCFC01B5DF6EE00FF269D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCFC11B5DF6EE00FF269D /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFC21B5DF6EE00FF269D /* Controller */,
+				185DCFC31B5DF6EE00FF269D /* Model */,
+				185DCFC41B5DF6EE00FF269D /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		185DCFC21B5DF6EE00FF269D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185DCFC31B5DF6EE00FF269D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185DCFC41B5DF6EE00FF269D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185DCFC51B5DF6EE00FF269D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				185DCFC61B5DF6EE00FF269D /* AppDelegate.h */,
+				185DCFC71B5DF6EE00FF269D /* AppDelegate.m */,
+				185DCFC81B5DF6EE00FF269D /* main.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +402,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185DCF921B5DF1C600FF269D /* Main.storyboard in Resources */,
 				185DCF971B5DF1C600FF269D /* LaunchScreen.xib in Resources */,
 				185DCF941B5DF1C600FF269D /* Images.xcassets in Resources */,
 			);
@@ -219,8 +421,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185DCF8F1B5DF1C600FF269D /* ViewController.m in Sources */,
-				185DCF8C1B5DF1C600FF269D /* AppDelegate.m in Sources */,
+				185DCFC91B5DF6EE00FF269D /* AppDelegate.m in Sources */,
+				185DCFCA1B5DF6EE00FF269D /* main.m in Sources */,
 				185DCF891B5DF1C600FF269D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +446,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		185DCF901B5DF1C600FF269D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185DCF911B5DF1C600FF269D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		185DCF951B5DF1C600FF269D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
